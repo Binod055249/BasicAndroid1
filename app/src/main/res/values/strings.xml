@@ -2,4 +2,5 @@
     <string name="app_name">BasicAndroid1</string>
     <string name="animal_name">Name Of The Animal:</string>
     <string name="tiger_image">Tiger image</string>
+    <string name="grid_views">These are the images of animals in a gridView </string>
 </resources>
