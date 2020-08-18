@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SimpleListview">
+        <activity android:name=".CustomizedListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UserInterface">
+        <activity android:name=".SimpleListview">
         </activity>
-        <activity android:name=".MoveFromView"></activity>
+        <activity android:name=".UserInterface"></activity>
+        <activity android:name=".MoveFromView" />
         <activity
             android:name=".MoveToSecondView"
             android:label="Second Activity" />
