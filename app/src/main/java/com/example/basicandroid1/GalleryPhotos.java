@@ -2,11 +2,8 @@ package com.example.basicandroid1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Gallery;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -23,18 +20,18 @@ public class GalleryPhotos extends AppCompatActivity {
         linearLayoutHorizontal=findViewById(R.id.linearLayoutHorizontal);
         imgAnimal=findViewById(R.id.imgAninal);
 
-        for(int index=0;index<AnimalGallery.image.length;index++){
+        for(int index = 0; index< AnimalClass.image.length; index++){
             final int i=index;
             final ImageView imageView=new ImageView(GalleryPhotos.this);
-            imageView.setImageResource(AnimalGallery.image[i]);
+            imageView.setImageResource(AnimalClass.image[i]);
             letsSetLayoutParamsForImageView(imageView);
             imageView.setPadding(100,100,100,100);
             imageView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    imgAnimal.setImageResource(AnimalGallery.image[i]);
+                    imgAnimal.setImageResource(AnimalClass.image[i]);
                     letsSetLayoutParamsForImageView(imgAnimal);
-                    Toast.makeText(GalleryPhotos.this, "This is:"+AnimalGallery.name[i], Toast.LENGTH_SHORT).show();
+                    Toast.makeText(GalleryPhotos.this, "This is:"+ AnimalClass.name[i], Toast.LENGTH_SHORT).show();
                 }
             });
             linearLayoutHorizontal.addView(imageView);

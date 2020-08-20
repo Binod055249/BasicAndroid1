@@ -1,6 +1,6 @@
 package com.example.basicandroid1;
 
-public class AnimalGallery {
+public class AnimalClass {
 
 
     static int[] image={R.drawable.bear,R.drawable.bird,R.drawable.cat,R.drawable.cow,
