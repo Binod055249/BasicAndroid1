@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AccessContacts">
+        <activity android:name=".AccessSdCard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WidgetComponents">
+        <activity android:name=".AccessContacts">
         </activity>
-        <activity android:name=".TxtSwitcher"></activity>
+        <activity android:name=".WidgetComponents"></activity>
+        <activity android:name=".TxtSwitcher" />
         <activity android:name=".ViewFlipperActivity" />
         <activity android:name=".ImgSwitcher" />
         <activity android:name=".GalleryPhotos" />
@@ -31,5 +32,8 @@
             android:name=".MoveToSecondView"
             android:label="Second Activity" />
     </application>
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 </manifest>
