@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/settings2"
+        android:title="Settings2" />
+
+    <item
+        android:id="@+id/settings3"
+        android:title="Settings3" />
+
+    <item
+        android:id="@+id/settings4"
+        android:title="Settings4" />
+
+    <item
+        android:id="@+id/settings5"
+        android:title="Settings5" />
+
+    <item
+        android:id="@+id/settings6"
+        android:title="Settings6" />
+
+    <item
+        android:id="@+id/settings7"
+        android:title="Settings7" />
+
+    <item
+        android:id="@+id/settings8"
+        android:title="Settings" />
+</menu>
