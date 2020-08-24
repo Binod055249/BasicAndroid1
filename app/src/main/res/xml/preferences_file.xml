@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Text number1 settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT1"
+            android:summary="This is font number 1"
+            android:title="font1"></CheckBoxPreference>
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT1"
+            android:summary="This is font number 2"
+            android:title="font2"></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT1"
+            android:summary="This is font number 3"
+            android:title="font3"></CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="false"
+            android:dialogTitle="Choose one of the size"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:key="FONT_SIZE_TEXT1"
+            android:title="Specify the size of your fonts for TextView1">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Text number2 settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT2"
+            android:summary="This is font number 1"
+            android:title="font1"></CheckBoxPreference>
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT2"
+            android:summary="This is font number 2"
+            android:title="font2"></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT2"
+            android:summary="This is font number 3"
+            android:title="font3"></CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="false"
+            android:dialogTitle="Choose one of the size"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:key="FONT_SIZE_TEXT2"
+            android:title="Specify the size of your fonts for TextView1">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Text number3 settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT3"
+            android:summary="This is font number 1"
+            android:title="font1"></CheckBoxPreference>
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT3"
+            android:summary="This is font number 3"
+            android:title="font2"></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT3"
+            android:summary="This is font number 3"
+            android:title="font3"></CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="false"
+            android:dialogTitle="Choose one of the size"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:key="FONT_SIZE_TEXT3"
+            android:title="Specify the size of your fonts for TextView1">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -3,4 +3,31 @@
     <string name="animal_name">Name Of The Animal:</string>
     <string name="tiger_image">Tiger image</string>
     <string name="grid_views">These are the images of animals in a gridView </string>
+
+
+    <string-array name="font_sizes">
+        <item>25</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+
+    </string-array>
+
+    <string-array name="font_sizes_values">
+
+        <item>25</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+
+    </string-array>
+
 </resources>
